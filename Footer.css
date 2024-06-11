@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-main-container {
+    font-family: serif;
+    background-color: rgb(53, 50, 50);
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.footer-container h1 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer-container .services,
+.footer-container .links,
+.footer-container .morelink,
+.footer-container .content {
+    padding: 20px;
+}
+
+.footer-container .services {
+    margin-left: 10%;
+    width: 40%;
+}
+
+.footer-container .services ul,
+.footer-container .links ul,
+.footer-container .morelink ul {
+    color: gray;
+    padding-top: 10px;
+}
+
+.footer-container .links {
+    margin-left: 10%;
+    width: 35%;
+}
+
+.footer-container .morelink {
+    margin-left: 10%;
+    width: 25%;
+}
+
+.footer-container .content {
+    margin-left: 6%;
+}
+
+.footer-container .content img {
+    width: 150px;
+    height: 100px;
+    margin-left: 20%;
+}
+.footer-container .content p {
+    color: gray;
+    width: 98%;
+}
+
+.footer-main-container hr {
+    color: rgb(146, 142, 142);
+    margin-top: 20px;
+}
+
+.footer-main-container .para {
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+    .footer-main-container {
+        width: 100%;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-container .services,
+    .footer-container .links,
+    .footer-container .morelink,
+    .footer-container .content {
+        width: 90%;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+        padding: 2px;
+    }
+
+    .footer-container .content img {
+        width: 150px;
+        height: 100px;
+        margin-left: 33%;
+    }
+
+    .footer-container .content p {
+        width: 100%;
+        padding: 2px;
+    }
+
+    .footer-main-container .para {
+        width: 100%;
+        align-items: flex;
+    }
+}

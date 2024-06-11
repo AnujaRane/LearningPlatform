@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.questions {
+    margin-top: 60px;
+    margin-left: 10%;
+    width: 75%;
+}
+.questions h1 {
+    font-size: 30px;
+    color: rgb(65, 61, 61);
+    font-family: serif;
+    font-weight: bold;
+}
+.questions h2 {
+    font-size: 24px;
+    color: rgb(65, 61, 61);
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.questions p {
+    font-size: 18px;
+    color: gray;
+    font-family: serif;
+    /* width: 55%; */
+}

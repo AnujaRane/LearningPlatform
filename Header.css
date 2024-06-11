@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    font-size: 20px;
+    color: #fff;
+    background: radial-gradient(circle at 10% 20%, rgb(4, 75, 116) 0%, rgb(40, 147, 209) 50%, rgb(4, 75, 116) 100%);
+    margin-bottom: 20px;
+}
+.navbar ul {
+    display: flex;
+    margin-left: 40%;
+}
+.navbar ul li {
+    padding: 10px;
+    font-family: serif;
+}
+.navbar ul li:hover{
+    background-color: orange;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
